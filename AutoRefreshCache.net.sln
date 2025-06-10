@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRefreshCache.Sample", "AutoRefreshCache.Sample\AutoRefreshCache.Sample.csproj", "{74E5CB06-52E4-4E35-ACEC-56391831FE8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRefreshCache", "AutoRefreshCache\AutoRefreshCache.csproj", "{12F9B068-BD30-4CF9-BDB3-226C75A7D255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E5CB06-52E4-4E35-ACEC-56391831FE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E5CB06-52E4-4E35-ACEC-56391831FE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E5CB06-52E4-4E35-ACEC-56391831FE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E5CB06-52E4-4E35-ACEC-56391831FE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F9B068-BD30-4CF9-BDB3-226C75A7D255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F9B068-BD30-4CF9-BDB3-226C75A7D255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F9B068-BD30-4CF9-BDB3-226C75A7D255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F9B068-BD30-4CF9-BDB3-226C75A7D255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

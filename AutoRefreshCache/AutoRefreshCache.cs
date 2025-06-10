@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace jiangyi1985
+namespace AutoRefreshCache
 {
     /// <summary>
     /// A Memory key/value cache that:
@@ -218,7 +218,7 @@ namespace jiangyi1985
             }
             catch (KeyNotFoundException)
             {
-                TryRegisterNewCacheEntry(key,valueFactory,lifeSpan);
+                TryRegisterNewCacheEntry(key, valueFactory, lifeSpan);
 
                 return Get(key);
             }
